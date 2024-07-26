@@ -64,8 +64,16 @@ console.log(bird);
 
 class Animal {
     constructor(type, legs) {
-        this.type = function () {
-            console.log(this.type);
-        }
+        this.type = type;
+        this.legs = legs
     }
+
 }
+
+let ani1 = new Animal("wild", 4)
+console.log(ani1);
+
+
+
+
+
