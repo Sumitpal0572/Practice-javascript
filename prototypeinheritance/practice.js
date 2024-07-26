@@ -59,3 +59,13 @@ function Bird(type, legs, canfly) {
 
 let bird = new Bird("domestic", 2, true)
 console.log(bird);
+
+
+
+class Animal {
+    constructor(type, legs) {
+        this.type = function () {
+            console.log(this.type);
+        }
+    }
+}
