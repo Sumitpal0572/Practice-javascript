@@ -37,28 +37,28 @@
 // Constructorfunction
 
 
-Animal.prototype.printType = function () {
-    console.log(this.type);
-}
+// Animal.prototype.printType = function () {
+//     console.log(this.type);
+// }
 
 
-function Animal(type, legs) {
-    this.type = type;
-    this.legs = legs;
-}
+// function Animal(type, legs) {
+//     this.type = type;
+//     this.legs = legs;
+// }
 
-let animal = new Animal("Domestic", 4)
-console.log(animal);
+// let animal = new Animal("Domestic", 4)
+// console.log(animal);
 
 
-Object.setPrototypeOf(Bird.prototype, Animal.prototype)
-function Bird(type, legs, canfly) {
-    Animal.call(type, legs);
-    this.canfly = canfly
-}
+// Object.setPrototypeOf(Bird.prototype, Animal.prototype)
+// function Bird(type, legs, canfly) {
+//     Animal.call(type, legs);
+//     this.canfly = canfly
+// }
 
-let bird = new Bird("domestic", 2, true)
-console.log(bird);
+// let bird = new Bird("domestic", 2, true)
+// console.log(bird);
 
 
 
