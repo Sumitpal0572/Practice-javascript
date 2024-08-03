@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#navbar {
+  background-color: teal;
+  padding: 15px;
+  display: flex;
+  justify-content: space-around;
+}
+
+a {
+  text-decoration: none;
+  color: #350b0b;
+  cursor: pointer;
+}
